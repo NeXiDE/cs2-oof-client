@@ -28521,8 +28521,8 @@
 		"Store_Link_Accounts"					"Link Accounts"
 		"Store_Get_License"						"Get License"
 		"Store_Register_License"				"Migrate"
-		"Store_Connecting_ToGc"					"Connecting to the Counter-Strike network..."
-		"Store_Connecting_ToGc_Tooltip"			"Please wait while we connect to the Counter-Strike network and log you in. Matchmaking, inventory, loadout, lobbies, invites, store, and other features that require Counter-Strike network may be temporarily unavailable."
+		"Store_Connecting_ToGc"					"Welcome to the OOF CS:2 Client!"
+		"Store_Connecting_ToGc_Tooltip"			"Please wait until the client has established a connection to the CS:GO client you have. If you don't have CS:GO open. Please start CS:GO first and then start CS:2 to get your Inventory & Loadout working"
 		"Store_Confirm_Purchase" 				"Confirm Purchase"
 		"Store_Dismiss_Inventory"				"Dismiss"
 
@@ -35754,7 +35754,7 @@
 		"SFUI_SteamConnectionTitle"						"Connecting to Steam"
 		"SFUI_SteamConnectionText"						"Please wait..."
 
-		"SFUI_SteamConnectionErrorTitle"				"Steam Connection Error"
+		"SFUI_SteamConnectionErrorTitle"				"Something is wrong..."
 		"SFUI_SteamConnectionErrorText"					"Please try again."
 
 		"SFUI_SteamConnectionReqTitle"					"Steam Required"
@@ -35770,7 +35770,7 @@
 		"SFUI_Steam_Error_ParentalControl"				"Online service is disabled on your PlayStation®Network account due to parental control restrictions."
 		"SFUI_Steam_Error_LinkAuth"						"Invalid Steam account name or password.\nPlease try again."
 		"SFUI_Steam_Error_LinkAlreadyLinked"			"The provided Steam account has already been linked to another PlayStation®Network account."
-		"SFUI_Steam_Error_LinkUnexpected"				"We were unable to connect to the Steam network. Please check your network connection and try again."
+		"SFUI_Steam_Error_LinkUnexpected"				"Wait until the game has established a link to your CS:GO client. If you don't have CS:GO open. Open up CS:GO first and then start CS:2 to get your Inventory & Loadout working."
 
 		// Time is formatted with %s1 = number of hours, %s2 = word "hour" or "hours", %s3 = two digit number of minutes, %s4 = word "minutes"
 		// for example "1 hour" will use _Format_H with %s1 = "1" and %s2 = "hour"
