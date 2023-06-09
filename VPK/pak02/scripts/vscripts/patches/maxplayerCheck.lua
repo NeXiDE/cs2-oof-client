@@ -29,10 +29,10 @@ function PlayerLeft(event)
     end
 end
 
-function RoundStart(event)
+--[[function RoundStart(event)
     for _  in pairs(players) do playerCount = playerCount + 1 end
-    --print("New Round. Checking Player Count: " .. playerCount)
-end
+    print("New Round. Checking Player Count: " .. playerCount)
+end]]--
 
 function DEBUG_PlayerCheck(event)
     print("DEBUG: Current Player Count: " .. playerCount)
@@ -41,7 +41,7 @@ end
 function Activate()
     ListenToGameEvent("player_connect_full", PlayerJoined, nil)
     ListenToGameEvent("player_disconnect", PlayerLeft, nil)
-    ListenToGameEvent("round_start", RoundStart, nil)
+    --ListenToGameEvent("round_start", RoundStart, nil)
     Convars:RegisterCommand("DEBUG_PrintPlayerCount", DEBUG_PlayerCheck, "Writes all cvars into a the statusConvar.cfg", 0x1000)
 end
 
