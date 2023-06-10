@@ -39815,6 +39815,8 @@
 
 		"csgo_player_left_game"					"Player %s1 left the game (%s2)"
 
+		"SFUI_BuyMenu_OnlyOneArmor"				"You can only buy 1x Armor"
+
 
 // SFUI_ENGLISH.txt
 // ---------------------------------------------------------------------------------------------
