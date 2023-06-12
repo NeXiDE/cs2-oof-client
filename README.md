@@ -10,7 +10,7 @@ CS2-OOF-Client is a modification made for CS2 that should bring a better user ex
 3. Go into your CS:GO folder root directory and go into the "bin" folder
 4. Create a shortcut of the "vpk.exe" file and drag it into the "VPK" folder of the downloaded repository
 5. Open the propertise of the shortcut and add after the Target Line "-M" to it
-6. Drag & Drop the "pak02" folder on top of the shortcut to compile the VPK files
+6. Drag & Drop the "pak01" folder on top of the shortcut to compile the VPK files
 
 ## Installation
 1. Drag & Drop the VPK files into "Mod Loading Files/game/csgo_mods"
