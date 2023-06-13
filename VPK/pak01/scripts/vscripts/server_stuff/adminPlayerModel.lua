@@ -4,6 +4,7 @@ require "libs.timers"
 local admins = {
     "[U:1:372278503]", -- NeXi2k
     "[U:1:53526696]",  -- Gh0st
+    "[U:1:14399780]",  -- BaT420
 }
 
 local duration = 0.1
@@ -35,7 +36,7 @@ end
 function PlayerModelTest(event)
     if filePrecached == 1 then
         SendToServerConsole("sv_cheats 1")
-        SendToServerConsole("script_reload_code precacheScript.lua")
+        SendToServerConsole("script_reload_code server_stuff/precacheModelScript.lua")
         SendToServerConsole("sv_cheats 0")
     end
     SetModel_ActiveTimer = Timers:CreateTimer({
