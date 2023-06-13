@@ -34,10 +34,13 @@ function PrintAdminTable(event)
 end
 
 function PlayerModelTest(event)
-    if filePrecached == 1 then
+    if filePrecached == 0 then
         SendToServerConsole("sv_cheats 1")
         SendToServerConsole("script_reload_code server_stuff/precacheModelScript.lua")
         SendToServerConsole("sv_cheats 0")
+        filePrecached = 1
+    else
+        -- File precached already
     end
     SetModel_ActiveTimer = Timers:CreateTimer({
 		endTime = duration,
