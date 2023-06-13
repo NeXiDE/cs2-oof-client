@@ -1,6 +1,6 @@
 @echo off
 color 6
-mkdir "../csgo/logs/%date:~-10,2%-%date:~-7,2%-%date:~-4,4%"
+mkdir "./game/csgo/logs/%date:~-10,2%-%date:~-7,2%-%date:~-4,4%"
 goto reload
 :reload
 cls
