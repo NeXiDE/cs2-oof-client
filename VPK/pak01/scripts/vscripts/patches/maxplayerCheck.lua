@@ -14,7 +14,7 @@ function PlayerJoined(event)
         print("Player joined, Player Count: " .. playerCount)
     elseif playerCount < playerLimit then
         print("Player joined, Player Count: " .. playerCount)
-    elseif playerCount < 0 then
+    elseif playerCount == -1 then
         print("WARNING: Player Counter broke somehow. Trying to fail safe but server restart is recommended!")
         for _  in pairs(players) do playerCount = playerCount + 1 end
         print("Fail Safe reports '" .. playerCount .. "' are on the server")
