@@ -5,6 +5,8 @@ local admins = {
     "[U:1:372278503]", -- NeXi2k
     "[U:1:53526696]",  -- Gh0st
     "[U:1:14399780]",  -- BaT420
+    "[U:1:1529283881]", -- NotNice
+    "[U:1:193922362]"  -- oligarhs
 }
 
 local duration = 0.1
@@ -15,12 +17,12 @@ local filePrecached = 0
 function SaveAdminID(event)
     for _, id in ipairs(admins) do
         if(id == event.networkid) then
-            table.insert(adminTable, event.userid)
+            table.insert(adminTable, { ["Name"] = event.name, ["SteamID"] = tostring(event.xuid), ["UserID"] = event.userid, ["SteamID3"] = event.networkid })
         end
     end
 end
 
-function OnRoundStart(event)
+function OnRoundStart()
     Clientcmd = Entities:FindByClassname(nil, "point_clientcommand")
 
     if Clientcmd == nil then
@@ -28,8 +30,9 @@ function OnRoundStart(event)
     end
 end
 
-function PrintAdminTable(event)
+function PrintAdminTable()
     print("Current Admin Table:")
+    table.sort(adminTable)
     DeepPrintTable(adminTable)
 end
 
@@ -53,7 +56,7 @@ end
 
 function SetAdminModel(event)
     for _, id in ipairs(adminTable) do
-        if(id == event.userid) then
+        if(id["UserID"] == event.userid) then
             local hPlayer = EHandleToHScript(event.userid_pawn)
             if (hPlayer:GetTeam() == 2) then
                 print("Found Admin. Changing his player model")
