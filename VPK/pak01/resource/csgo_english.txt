@@ -28330,7 +28330,7 @@
 		"SFUI_Map_dz_ember"		"Ember"
 		
 		"SFUI_Map_workshop_preview"	"Preview"
-
+		
 		"SFUI_Map_de_mirage_csgo"		"Mirage CS:GO"
 		"SFUI_Map_$2000$"				"$2000$"
 		"SFUI_Map_aim_map"				"Aim Map"
@@ -32620,8 +32620,9 @@
 		"SFUI_BuyMenu_NotAllowedByMap"			"Not allowed on this map type"
 		"SFUI_BuyMenu_NotAllowedByMode"			"Not allowed in this game mode"
 		"SFUI_BuyMenu_NotAllowedByTeam"			"Not allowed on your current team"
-        "SFUI_BuyMenu_ReachedWeaponsExpertLimit"    "Already purchased {s:s1} this match"
+        "SFUI_BuyMenu_ReachedWeaponsExpertLimit""Already purchased {s:s1} this match"
 		"SFUI_BuyMenu_Cannot_Afford"			"Need ${s:s1} more"
+		"SFUI_BuyMenu_OnlyOneArmor"				"You already have armor"
 		"SFUI_BuyMenu_NotAllowed_Short"			"NOT ALLOWED"
 		"SFUI_BuyMenu_Owned_Short"				"OWNED"
 		"SFUI_BuyMenu_AtLimit_Short"			"AT LIMIT"
@@ -37097,6 +37098,8 @@
 		"loadout_wedge_weapon_name"			"<b>{s:item-name}</b>"
 		"loadout_reset_category"			"Reset this wheel's weapons.\nFinishes will not be reset."
 		"loadout_clear_filters"				"Clear filters"
+		"loadout_equip_t"				"EQUIP T"
+		"loadout_equip_ct"				"EQUIP CT"
 
 		"inv_context_equip_replace"			"Replace Existing Weapon"
 
@@ -39814,8 +39817,6 @@
 		"Propcounter_money" "$%s1" //e.g. used on danger zone security door
 
 		"csgo_player_left_game"					"Player %s1 left the game (%s2)"
-
-		"SFUI_BuyMenu_OnlyOneArmor"				"You can only buy 1x Armor"
 
 
 // SFUI_ENGLISH.txt
