@@ -77,4 +77,5 @@ end
 ListenToGameEvent("player_spawn", PlayerModelTest, nil)
 ListenToGameEvent("round_start", OnRoundStart, nil)
 ListenToGameEvent("player_connect", SaveAdminID, nil)
+---@diagnostic disable-next-line: param-type-mismatch
 Convars:RegisterCommand("PrintAdminTable", PrintAdminTable, "Command from adminPlayerModel.lua: Prints the Admin Table - DEBUG COMMAND", 0x1000)
