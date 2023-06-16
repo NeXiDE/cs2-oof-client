@@ -1998,7 +1998,7 @@ function CCustomGameEventManager:UnregisterListener( int_1 ) end
  --- CDebugOverlayScriptHelper:Axis  Draws an axis. Specify origin + orientation in world space. 
 ---@return void
 ---@param Vector_1 Vector
----@param Quaternion_2 <unknown>
+---@param Quaternion_2 Vector
 ---@param float_3 float
 ---@param bool_4 bool
 ---@param float_5 float
@@ -2110,7 +2110,7 @@ function CDebugOverlayScriptHelper:Cross3D( Vector_1, float_2, int_3, int_4, int
  --- CDebugOverlayScriptHelper:Cross3DOriented  Draws an oriented cross. Specify origin in world space. 
 ---@return void
 ---@param Vector_1 Vector
----@param Quaternion_2
+---@param Quaternion_2 Vector
 ---@param float_3 float
 ---@param int_4 int
 ---@param int_5 int
